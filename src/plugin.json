@@ -1,0 +1,55 @@
+{
+	"name": "Bulk Image Tweaker",
+	"description": "Allows for various image enhancements and tweaks.",
+	"license": "GPL-3.0",
+	"author": "Matt Bergman",
+	"version": "1.0.0",
+	"scope": "site",
+	"minimumPubliiVersion": "0.39.0",
+	"usePluginSettingsView": false,
+    "config": [
+        {
+            "group": "Configuration",
+            "name": "enabled",
+            "label": "Enabled",
+            "type": "checkbox",
+            "value": true
+        },
+        {
+            "group": "Configuration",
+            "name": "imageFormat",
+            "label": "Image Format",
+            "value": 0,
+            "type": "select",
+            "options": [
+                {
+                    "label": "JPEG",
+                    "value": 0
+                },
+                {
+                    "label": "PNG",
+                    "value": 1
+                },
+                {
+                    "label": "WebP",
+                    "value": 2
+                },
+                {
+                    "label": "GIF",
+                    "value": 3
+                },
+                {
+                    "label": "BMP",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "group": "Configuration",
+            "name": "flipHorizontally",
+            "label": "Flip Horizontally",
+            "type": "checkbox",
+            "value": true
+        }
+    ]
+}
