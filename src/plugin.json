@@ -1,9 +1,9 @@
 {
 	"name": "Bulk Image Tweaker",
-	"description": "Allows for various image enhancements and tweaks.",
+	"description": "Allows for batch processing with various image enhancements and tweaks.",
 	"license": "GPL-3.0",
 	"author": "Matt Bergman",
-	"version": "1.0.0",
+	"version": "0.0.0",
 	"scope": "site",
 	"minimumPubliiVersion": "0.39.0",
 	"usePluginSettingsView": false,
@@ -49,7 +49,14 @@
             "name": "flipHorizontally",
             "label": "Flip Horizontally",
             "type": "checkbox",
-            "value": true
+            "value": false
+        },
+        {
+            "group": "Configuration",
+            "name": "flipVertically",
+            "label": "Flip Vertically",
+            "type": "checkbox",
+            "value": false
         }
     ]
 }
